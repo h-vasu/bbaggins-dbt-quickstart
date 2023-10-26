@@ -2,7 +2,11 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
+<<<<<<< HEAD
 name: 'promenade_analytics'
+=======
+name: 'jaffle_shop'
+>>>>>>> 446198c0a5cdd731583105b8118fd27718c8cbb3
 version: '1.0.0'
 config-version: 2
 
@@ -37,6 +41,7 @@ vars:
 # directory as views. These settings can be overridden in the individual model
 # files using the `{{ config(...) }}` macro.
 models:
+<<<<<<< HEAD
   promenade_analytics:
     # Config indicated by + and applies to all files under models/example/
     bloomnation_staging:
@@ -75,3 +80,7 @@ models:
           +schema: digin
           +materialized: table 
       
+=======
+  jaffle_shop:
+    +materialized: table
+>>>>>>> 446198c0a5cdd731583105b8118fd27718c8cbb3
