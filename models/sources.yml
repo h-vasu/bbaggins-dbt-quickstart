@@ -1,0 +1,12 @@
+version: 2
+
+sources: 
+    - name: jaffle_shop
+      description: This is a replica of PG DB
+      database: raw
+      schema: jaffle_shop
+      tables:
+         - name: customers
+           description: One record per customer
+         - name: orders
+           descirption: One record per order. Includes cancelled and deleted orders
