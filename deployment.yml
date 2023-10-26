@@ -1,0 +1,23 @@
+
+jobs:
+# Give each job a unique name. The name will be displayed in the Fivetran dashboard once your jobs are imported.
+# Job names must be unique.
+- name: DIGIN_STRIPE_TRANSFORMATION
+  schedule: 0 */8 * * * # This example will run every day in every 8 hours
+  steps:
+     - name: run dim_sourcesystem_digin model
+       command: dbt run --models dim_sourcesystem_digin 
+     - name: run dim_account_digin model
+       command: dbt run --models dim_account_digin
+     - name: run dim_customer_digin model
+       command: dbt run --models dim_customer_digin 
+     - name: run dim_bank_account_digin model
+       command: dbt run --models dim_bank_account_digin
+     - name: run dim_card_digin model
+       command: dbt run --models dim_card_digin 
+     - name: run dim_credit_card_type_digin model
+       command: dbt run --models dim_credit_card_type_digin
+     - name: run dim_transactiontype_digin model
+       command: dbt run --models dim_transactiontype_digin 
+     - name: run fact_transaction_digin model
+       command: dbt run --models fact_transaction_digin
