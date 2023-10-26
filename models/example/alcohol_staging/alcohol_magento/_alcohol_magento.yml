@@ -1,0 +1,36 @@
+version: 2
+
+sources:
+  - name: ALCOHOL_MAGENTO
+    database: SWIGG_STAGING_DB
+    schema: SWIGG_MAGENTO_SWIGG
+    tables:
+      - name: EAV_ATTRIBUTE
+        identifier: EAV_ATTRIBUTE
+      - name: EAV_ATTRIBUTE_OPTION
+        identifier: EAV_ATTRIBUTE_OPTION
+      - name: EAV_ATTRIBUTE_OPTION_VALUE
+        identifier: EAV_ATTRIBUTE_OPTION_VALUE
+      - name: UDROPSHIP_VENDOR
+        identifier: UDROPSHIP_VENDOR
+      - name: BLOOM_SALES_ADMIN_ORDER_AGGREGATED_GRID
+        identifier: BLOOM_SALES_ADMIN_ORDER_AGGREGATED_GRID
+      - name: SALES_FLAT_ORDER_ITEM
+        identifier: SALES_FLAT_ORDER_ITEM
+      - name: SALES_FLAT_ORDER_PAYMENT
+        identifier: SALES_FLAT_ORDER_PAYMENT
+      - name: sales_flat_order
+        identifier: sales_flat_order
+      - name: SALES_FLAT_QUOTE
+        identifier: SALES_FLAT_QUOTE
+      - name: CUSTOMER_ENTITY
+        identifier: CUSTOMER_ENTITY
+      - name: SALES_FLAT_SHIPMENT_ALCOHOL
+        identifier: SALES_FLAT_SHIPMENT
+      - name: REVIEW_DETAIL
+        identifier: REVIEW_DETAIL
+      - name: REVIEW
+        identifier: REVIEW
+      - name: RATING_OPTION_VOTE
+        identifier: RATING_OPTION_VOTE
+      

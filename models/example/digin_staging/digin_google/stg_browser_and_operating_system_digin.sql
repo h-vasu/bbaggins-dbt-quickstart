@@ -1,0 +1,5 @@
+select
+
+*
+
+from {{ source('GOOGLE_DIGIN', 'BROWSER_AND_OPERATING_SYSTEM_OVERVIEW') }}

@@ -1,0 +1,5 @@
+select
+
+*
+
+from {{ source('BUTCHER_GOOGLE', 'BROWSER_AND_OPERATING_SYSTEM_OVERVIEW') }}

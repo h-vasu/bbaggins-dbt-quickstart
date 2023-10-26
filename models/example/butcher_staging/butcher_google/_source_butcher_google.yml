@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+  - name: BUTCHER_GOOGLE
+    database: BUTCHER_STAGING_DB
+    schema: BUTCHER_GOOGLE_ANALYTICS
+    tables:
+      - name: ADWORD_CAMPAIGNS
+        identifier: ADWORD_CAMPAIGNS
+      - name: ADWORD_HOURLY_STATS
+        identifier: ADWORD_HOURLY_STATS
+      - name: ADWORD_KEYWORD
+        identifier: ADWORD_KEYWORD
+      - name: AUDIENCE_OVERVIEW
+        identifier: AUDIENCE_OVERVIEW
+      - name: BROWSER_AND_OPERATING_SYSTEM_OVERVIEW
+        identifier: BROWSER_AND_OPERATING_SYSTEM_OVERVIEW
+      - name: CAMPAIGN_PERFORMANCE
+        identifier: CAMPAIGN_PERFORMANCE
+      - name: CHANNEL_TRAFFIC
+        identifier: CHANNEL_TRAFFIC
+      - name: EVENTS_OVERVIEW
+        identifier: EVENTS_OVERVIEW
+      - name: TRAFFIC
+        identifier: TRAFFIC
+      - name: SOCIAL_MEDIA_ACQUISITIONS
+        identifier: SOCIAL_MEDIA_ACQUISITIONS
+      

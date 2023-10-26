@@ -1,0 +1,5 @@
+select
+
+*
+
+from {{ source('BLOOMNATION_MAGENTO', 'CATALOG_PRODUCT_ENTITY_MEDIA_GALLERY') }}

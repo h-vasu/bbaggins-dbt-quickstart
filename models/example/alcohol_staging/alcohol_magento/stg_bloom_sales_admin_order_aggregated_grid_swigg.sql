@@ -1,0 +1,5 @@
+select
+
+*
+
+from {{ source('ALCOHOL_MAGENTO', 'BLOOM_SALES_ADMIN_ORDER_AGGREGATED_GRID') }}

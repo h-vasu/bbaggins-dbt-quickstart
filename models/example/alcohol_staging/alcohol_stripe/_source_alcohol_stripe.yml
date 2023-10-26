@@ -1,0 +1,32 @@
+version: 2
+
+sources:
+  - name: STRIPE_ALCOHOL
+    database: SWIGG_STAGING_DB 
+    schema: SWIGG_STRIPE
+    tables:
+      - name: ACCOUNT_ALCOHOL
+        identifier: ACCOUNT
+      - name: CUSTOMER_ALCOHOL
+        identifier: CUSTOMER
+      - name: BANK_ACCOUNT_ALCOHOL
+        identifier: BANK_ACCOUNT
+      - name: CARD_ALCOHOL
+        identifier: CARD
+      - name: BALANCE_TRANSACTION_ALCOHOL
+        identifier: BALANCE_TRANSACTION
+      - name: CHARGE_ALCOHOL
+        identifier: CHARGE
+      - name: REFUND_ALCOHOL
+        identifier: REFUND
+      - name: TRANSFER_ALCOHOL
+        identifier: TRANSFER
+      - name: SUBSCRIPTION
+        identifier: SUBSCRIPTION
+      - name: INVOICE
+        identifier: INVOICE
+      
+     
+      
+
+      
